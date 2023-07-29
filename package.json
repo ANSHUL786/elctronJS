@@ -1,0 +1,17 @@
+{
+  "name": "electronjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electronjs/mainhtml.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . generate-html-app --platform=win32 --arch=x64 --out=release-builds --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.3.1",
+    "electron-packager": "^17.1.1"
+  }
+}
